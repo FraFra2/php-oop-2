@@ -29,4 +29,6 @@ $products = [
 
 ];
 
+$products[0]->getAll("Crocchette", "Descrizione buonissime crocchette", 12.99, $categoriaGatto, 1, "22/07/2024");
+
 ?>
