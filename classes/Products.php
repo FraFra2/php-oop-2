@@ -13,6 +13,9 @@ class Product{
         $this -> name = $name;
         $this -> desc = $desc;
         $this -> price = $price;
+        if($this->price < 0){
+            throw new Exception('Is not a number');
+        }
         $this -> categorie = $categorie;
         $this -> avaible = $avaible;
     }

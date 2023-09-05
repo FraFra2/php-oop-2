@@ -11,7 +11,7 @@ trait getAll{
         $allChar[] = $material;
         $allChar[] = $expiracy;
         $allChar[] = $size;
-        var_dump($allChar);
+        // var_dump($allChar);
         return $allChar;
     }
     
