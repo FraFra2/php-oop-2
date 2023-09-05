@@ -15,7 +15,18 @@ $products = [
     new Toy("Frisbee", "Frisbee leggero per divertimento all'aperto", 4.99, $categoriaCane, 0, "Plastica"),
     new Food("Ciotola per cani", "Ciotola resistente per il cibo del tuo cane", 6.99, $categoriaCane, 1, "--/--/--"),
     new Product("Collare per cani", "Collare regolabile per il tuo cane", 8.99, $categoriaCane, 0),
-    new Product("Pettine per cani", "Pettine per la toelettatura del tuo cane", 3.99, $categoriaCane, 1)
+    new Product("Pettine per cani", "Pettine per la toelettatura del tuo cane", 3.99, $categoriaCane, 1),
+    new Food("Nuove Crocchette", "Nuova descrizione per crocchette", 11.49, $categoriaGatto, 0, "15/06/2025"),
+    new Toy("Palla per gatti", "Palla divertente per il tuo gatto", 3.99, $categoriaGatto, 1, "Plastica"),
+    new Shelter("Cuccia Peluche", "Cuccia accogliente per il tuo gatto", 13.99, $categoriaGatto, 0, "80cmx100cmx15cm"),
+    new Food("Gustosi Snack per gatti", "Snack deliziosi per il tuo micio", 4.49, $categoriaGatto, 1, "10/12/2024"),
+    new Product("Ferretto per gatti", "Ferretto interattivo per il tuo gatto", 6.99, $categoriaGatto, 0),
+    new Product("Letto per gatti", "Letto morbido per il tuo gatto", 17.99, $categoriaGatto, 1),
+    new Toy("Pallina rimbalzante", "Pallina che rimbalza per il tuo cane", 2.99, $categoriaCane, 0, "Gomma"),
+    new Food("Scatoletta umida", "Cibo umido per il tuo cane", 4.99, $categoriaCane, 1, "05/08/2024"),
+    new Product("Zaino per cani", "Zaino leggero per portare il tuo cane in giro", 19.99, $categoriaCane, 0),
+    new Product("Spazzola per cani", "Spazzola per la cura del pelo del tuo cane", 7.49, $categoriaCane, 1)
+
 ];
 
 ?>

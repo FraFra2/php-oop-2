@@ -32,7 +32,10 @@ require_once __DIR__ . '/db.php';
             <?php
             foreach ($products as $key => $product) {
             ?>
-                <div class = "drop-shadow-2xl bg-[--accent] text-[--alttext] p-8 rounded-xl">
+                <div class = "drop-shadow-2xl bg-[--accent] text-[--alttext] p-4 rounded-xl">
+                    <div class = "flex justify-center items-center">
+                        <img class = "object-cover rounded-md" src="https://picsum.photos/250/250" alt="">
+                    </div>
                     <h2 class = "text-2xl">
                         <?= $product->name ?>
                     </h2>
@@ -57,12 +60,10 @@ require_once __DIR__ . '/db.php';
                          if($product->avaible == 1){
                         ?>
                             Disponibile: <i class="fa-solid fa-square-check text-green-500"></i>
-                        
+                            
                         <?php
                          }
                          ?>
-                        
-                       
                     </h5>
                     <!-- TOYS -->
                     <div>
@@ -95,6 +96,25 @@ require_once __DIR__ . '/db.php';
                          ?>
                     </div>
 
+                    <!-- Buying -->
+                    <div class = "flex justify-start items-center pt-4">
+                    <?php
+                         if($product->avaible == 0){
+                            ?>
+                            <h3 class = "bg-red-500 p-2 rounded-xl">Unavaible</h3>
+                        <?php
+                         }
+                         ?>
+                         <?php
+                         if($product->avaible == 1){
+                        ?>
+                            <button class = "bg-green-500 py-2 px-4 transition-all hover:px-16 rounded-xl">Buy</button>
+                            
+                        <?php
+                         }
+                         ?>
+                    </div>
+                    
                 </div>
                 
 
