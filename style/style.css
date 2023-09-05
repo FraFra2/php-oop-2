@@ -1,0 +1,13 @@
+:root {
+  --text: #171612;
+  --background: #f2f1ee;
+  --primary: #303440;
+  --secondary: #f0eeeb;
+  --accent: #323743;
+
+  --alttext: #f2f1ee;
+  --altbackground: #171612;
+  --altprimary: #303440;
+  --altsecondary: #26221d;
+  --altaccent: #758098;
+}
